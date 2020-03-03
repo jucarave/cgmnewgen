@@ -13,5 +13,6 @@ displayName = noone;
 displaySprite = noone;
 
 objPlayer.state = STATE_FREE;
+objNPC.talking = false;
 
 io_clear();

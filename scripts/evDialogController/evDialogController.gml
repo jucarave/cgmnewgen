@@ -67,6 +67,10 @@ if (prevActor != noone) {
 			if (pageLength == 4) {
 				displaySprite = eventPage[3];
 			}
+			
+			if (endAfterHide && lastActorSprite == noone) {
+				event_user(2);
+			}
 		}
 		
 		// Hide Sprite

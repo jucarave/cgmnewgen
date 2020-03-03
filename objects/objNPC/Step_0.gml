@@ -1,3 +1,5 @@
+if (talking) { exit; } 
+
 if (commands != noone) {
 	npcFollowPath();
 }

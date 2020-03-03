@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "6b8c1471-920f-4dfd-8fc6-40bd558f05a0",
+            "Value": {
+                "id": "a97e5694-f3bd-4e5d-8cf8-dde2b1e2182f",
+                "resourcePath": "scripts\\eventDummyFlags\\eventDummyFlags.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7517d105-a907-45a2-b56e-53a4d4f7bafe",
             "Value": {
                 "id": "5064494e-72f3-452a-a83e-8e7ab8582d58",
@@ -763,6 +771,7 @@
         "7e3f0846-a252-46d3-b33b-9daf7dd8ee71",
         "e5f4c114-6304-4e31-a1da-2ed8b95a772a",
         "edbc01f5-2a41-4bd3-8cd2-63897c8d83d3",
+        "6b8c1471-920f-4dfd-8fc6-40bd558f05a0",
         "f177a2e2-7d4b-4d07-8172-1ba06e2e9507",
         "efb33e2c-578e-485e-a9eb-53f0810c23b8",
         "7e8bbef5-6bcf-4d4d-b390-0adcc566dabe",
