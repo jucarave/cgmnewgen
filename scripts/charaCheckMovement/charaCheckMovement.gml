@@ -9,20 +9,28 @@ if (hor != 0.0 || ver != 0.0) {
 	
 	var dir = point_direction(0, 0, hor, ver),
 		xTo = lengthdir_x(spd, dir),
-		yTo = lengthdir_y(spd, dir);
+		yTo = lengthdir_y(spd, dir),
+		moved = false;
 		
-	if (!place_meeting_array(x + xTo, y, [objSolid, objNPC])) {
+	if (xTo != 0 && !place_meeting_array(x + xTo, y, [objSolid, objNPC, objPlayer])) {
 		x += xTo;
+		moved = true;
 	}
-	if (!place_meeting_array(x, y + yTo, [objSolid, objNPC])) {
+	if (yTo != 0 && !place_meeting_array(x, y + yTo, [objSolid, objNPC, objPlayer])) {
 		y += yTo;
+		moved = true;
 	}
 	
-	if (image_speed == 0) {
-		image_index = 1;
-	}
+	if (moved) {
+		if (image_speed == 0) {
+			image_index = 1;
+		}
 	
-	image_speed = 1;
+		image_speed = 1;
+	} else {
+		image_speed = 0;
+		image_index = 0;
+	}
 } else {
 	image_speed = 0;
 	image_index = 0;

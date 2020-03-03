@@ -2,7 +2,7 @@
 
 display_set_gui_size(640, 360);
 
-var fontMap = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚabcdefghijklmnñopqrstuvwxyzáéíóú0123456789¡!¿?()\"'.,-/ü ";
+var fontMap = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚabcdefghijklmnñopqrstuvwxyzáéíóú0123456789¡!¿?()\"'.,-/ü: ";
 global.PIXEL_FONT = font_add_sprite_ext(sprFont, fontMap, true, 1);
 
 global.KEY_UP = vk_up;
