@@ -16,3 +16,7 @@
 #macro EVENT_SHOW_MESSAGE 0
 #macro EVENT_SHOW_QUESTION 1
 #macro EVENT_END_DIALOG 2
+
+#macro NPC_WALK_TO 0
+#macro NPC_LOOK_AT 1
+#macro NPC_WAIT 2
