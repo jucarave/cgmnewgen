@@ -5,6 +5,7 @@ with (objPlayer) {
 	image_speed = 0;
 }
 
+event_user(3);
 active = true;
 page = -1;
 
