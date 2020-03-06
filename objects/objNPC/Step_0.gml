@@ -1,3 +1,4 @@
+if (global.PAUSE) { exit; }
 if (talking) { exit; } 
 
 if (commands != noone) {

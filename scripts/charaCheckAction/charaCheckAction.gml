@@ -28,5 +28,17 @@ if (KEY_ACTION == 1) {
 		with (ins) {
 			event_user(0);
 		}
+		
+		exit;
+	}
+	
+	x1 = floor(x / GRID_WIDTH) * GRID_WIDTH;
+	y1 = floor(y / GRID_HEIGHT) * GRID_HEIGHT;
+	
+	ins = collision_rectangle(x1 + 1, y1 + 1, x1 + GRID_WIDTH - 2, y1 + GRID_HEIGHT - 2, objActionBlock, true, true);
+	if (ins != noone) {
+		with (ins) {
+			event_user(0);
+		}
 	}
 }

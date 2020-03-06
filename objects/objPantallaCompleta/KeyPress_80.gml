@@ -1,0 +1,1 @@
+global.PAUSE = !global.PAUSE;

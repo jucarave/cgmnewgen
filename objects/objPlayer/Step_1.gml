@@ -1,3 +1,5 @@
+if (global.PAUSE) { exit; }
+
 KEY_UP = keyboard_check(global.KEY_UP);
 KEY_LEFT = keyboard_check(global.KEY_LEFT);
 KEY_DOWN = keyboard_check(global.KEY_DOWN);

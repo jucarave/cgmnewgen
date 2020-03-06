@@ -1,0 +1,2 @@
+needsFacing = noone;
+actions = [];

@@ -17,5 +17,5 @@ for (var i=0;i<instancesCount;i++) {
 		exit; 
 	}
 	
-	draw_sprite_ext(ins.sprite_index, ins.image_index, ins.x, ins.y, ins.image_xscale, ins.image_yscale, ins.image_angle, ins.image_blend, ins.image_alpha);
+	draw_sprite_ext(ins.sprite_index, ins.imageIndex, ins.x, ins.y, ins.image_xscale, ins.image_yscale, ins.image_angle, ins.image_blend, ins.image_alpha);
 }

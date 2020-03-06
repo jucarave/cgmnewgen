@@ -20,3 +20,5 @@
 #macro NPC_WALK_TO 0
 #macro NPC_LOOK_AT 1
 #macro NPC_WAIT 2
+
+#macro ACTION_GO_TO_ROOM 0

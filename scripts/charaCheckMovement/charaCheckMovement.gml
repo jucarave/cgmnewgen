@@ -23,15 +23,15 @@ if (hor != 0.0 || ver != 0.0) {
 	
 	if (moved) {
 		if (image_speed == 0) {
-			image_index = 1;
+			imageIndex = 1;
 		}
 	
 		image_speed = 1;
 	} else {
 		image_speed = 0;
-		image_index = 0;
+		imageIndex = 0;
 	}
 } else {
 	image_speed = 0;
-	image_index = 0;
+	imageIndex = 0;
 }
